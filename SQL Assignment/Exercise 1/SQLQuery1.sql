@@ -1,3 +1,6 @@
-use AdventureWorks2008R2
+/* 1. Display the number of records in the [SalesPerson] table. */
 
-select SalesOrderID from Sales.SalesOrderHeader;
+USE AdventureWorks2008R2
+
+SELECT count(*) AS 'Records' 
+FROM Sales.SalesPerson;

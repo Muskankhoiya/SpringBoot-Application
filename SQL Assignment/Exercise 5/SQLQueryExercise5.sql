@@ -5,7 +5,7 @@ USE AdventureWorks2008R2
 
 GO
 
-CREATE PROCEDURE Person.pro_getNameByType
+CREATE PROCEDURE Person.proiiii_getNameByType
       @Type nchar(2) = 'EM'
 AS
 SELECT FirstName From Person.Person
@@ -13,4 +13,4 @@ WHERE  PersonType =@Type
 
 GO
 
---EXEC Person.pro_getNameByType @Type = 'SC'
+EXEC Person.proiiii_getNameByType @Type = 'SC'
